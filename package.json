@@ -7,21 +7,23 @@
   "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
   "license": "MIT",
   "scripts": {
-   "ng": "ng",
+    "ng": "ng",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall":"ng build --aot --target=production",
+    "postinstall": "ng build --aot --target=production",
     "start": "node server.js"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "5.2.10",
+    "@angular/animations": "^5.2.10",
+    "@angular/cli": "1.7.4",
     "@angular/common": "5.2.10",
     "@angular/compiler": "5.2.10",
+    "@angular/compiler-cli": "5.2.10",
     "@angular/core": "5.2.10",
-    "@angular/forms": "5.2.10",
+    "@angular/forms": "^5.2.10",
     "@angular/http": "5.2.10",
     "@angular/platform-browser": "5.2.10",
     "@angular/platform-browser-dynamic": "5.2.10",
@@ -36,16 +38,15 @@
     "ng2-charts": "1.6.0",
     "ngx-bootstrap": "2.0.4",
     "ngx-perfect-scrollbar": "5.3.5",
+    "ngx-toaster": "^1.0.1",
+    "ngx-toastr": "^8.5.0",
     "rxjs": "5.5.10",
     "simple-line-icons": "^2.4.1",
     "ts-helpers": "1.1.2",
-    "zone.js": "0.8.26",
-    "@angular/cli": "1.7.4",
-    "@angular/compiler-cli": "5.2.10",
-    "typescript": "2.7.2"
+    "typescript": "2.7.2",
+    "zone.js": "0.8.26"
   },
   "devDependencies": {
-    
     "@angular/language-service": "5.2.10",
     "@types/jasmine": "2.8.6",
     "@types/jasminewd2": "2.0.3",
@@ -61,7 +62,6 @@
     "protractor": "5.3.1",
     "ts-node": "4.1.0",
     "tslint": "5.9.1"
-    
   },
   "engines": {
     "node": ">= 8.9.4",
